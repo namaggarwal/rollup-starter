@@ -1,0 +1,24 @@
+{
+  "name": "rollup-starter",
+  "version": "1.0.0",
+  "description": "Starter for Rollup ",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "debug": "rollup -cw --configDebug"
+  },
+  "author": "Naman Aggarwal",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "eslint": "^5.16.0",
+    "rollup": "^1.11.3",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-delete": "^1.0.0",
+    "rollup-plugin-node-resolve": "^4.2.4",
+    "rollup-plugin-uglify": "^6.0.2"
+  }
+}
